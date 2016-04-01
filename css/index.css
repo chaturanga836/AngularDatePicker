@@ -1,0 +1,74 @@
+.editor{
+    min-height: 100px !important;
+    background-color: beige;
+    display: block;
+}
+
+.editor-ex{
+    display: none;
+}
+
+.date-picker{
+
+}
+.calander{
+    width: 250px;
+    height:auto; 
+    border: 1px solid #eee;
+    border-radius: 2px;
+}
+
+.calander table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.calander tr td{
+ cursor: pointer;
+}
+
+.calander tr td:hover{
+    background-color: #ddd;
+    border-radius: 5px;
+}
+.calander tr th.nav{
+  width: 25px;
+  text-align: center;
+  height: 25px;  
+  cursor: pointer;
+    color: #aaa;
+}
+
+.calander tr th.head{
+  width: 200px; 
+  text-align: center;
+  height: 25px; 
+  cursor: pointer;    
+}
+
+.calander tr.head th{
+    font-weight: bold;
+    text-align: center;
+
+}
+
+.calander td.date{
+  width: 40px;
+  height: 40px;
+  text-align: center;
+    padding: 5px;
+}
+
+.calander td.month{
+   width: 60px;
+  height: 40px;
+  text-align: center;
+    padding: 5px;  
+}
+
+.calander td.year{
+    width: 100px;
+  height: 40px;
+  text-align: center;
+    padding: 5px;
+}
