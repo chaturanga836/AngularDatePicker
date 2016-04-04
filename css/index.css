@@ -72,3 +72,19 @@
   text-align: center;
     padding: 5px;
 }
+
+.calander td.prev-d{
+  color:#ddd;  
+}
+
+.calander td.prev-d:hover{
+  color:#fff;   
+}
+
+.calander td.prev-d{
+    
+}
+
+.calander td.next-d{
+   color:#aaa; 
+}

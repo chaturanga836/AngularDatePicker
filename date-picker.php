@@ -10,7 +10,7 @@
         <meta http-equiv="expires" content="Tue, 01 Jan 1980 1:00:00 GMT" />
         <meta http-equiv="pragma" content="no-cache" />
          
-         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+         
          <script src="js/angular.js"></script>
         <script src="js/ng-date-picker.js"></script>
         <link rel="stylesheet" href="css/index.css">
