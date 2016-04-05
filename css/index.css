@@ -16,20 +16,26 @@
     height:auto; 
     border: 1px solid #eee;
     border-radius: 2px;
+    position: absolute;
+    z-index: 10000;
 }
 
 .calander table{
     width: 100%;
     border-collapse: collapse;
+    color:#7e7e7e;
 }
 
 .calander tr td{
  cursor: pointer;
 }
 
-.calander tr td:hover{
+.calander tr td:hover,
+.calander tr th.head:hover,
+.calander tr th.nav:hover{
     background-color: #ddd;
     border-radius: 5px;
+    color: #fff;
 }
 .calander tr th.nav{
   width: 25px;
@@ -78,12 +84,20 @@
 }
 
 .calander td.prev-d:hover{
-  color:#fff;   
+  color:#fff;
+ 
 }
 
 .calander td.prev-d{
     
 }
+
+.calander td.today-d{
+   background-color:#58cc00;
+    color: #fff;
+       border-radius: 5px;
+}
+
 
 .calander td.next-d{
    color:#aaa; 

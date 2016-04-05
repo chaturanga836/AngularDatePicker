@@ -20,7 +20,7 @@
 
     <body ng-app="calander">
       
-        <div date-picker date-format="yyyy-mmm-dddy">
+        <div date-picker date-format="YYYY/M/D">
         </div>
 
     </body>
