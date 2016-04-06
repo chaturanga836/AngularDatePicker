@@ -9,15 +9,17 @@
 }
 
 .date-picker{
-
+  position: absolute;
+  z-index: 10000;
 }
 .calander{
     width: 250px;
     height:auto; 
     border: 1px solid #eee;
     border-radius: 2px;
-    position: absolute;
-    z-index: 10000;
+    -webkit-box-shadow: 7px 7px 22px 3px rgba(0,0,0,1);
+-moz-box-shadow: 7px 7px 22px 3px rgba(0,0,0,1);
+box-shadow: 7px 7px 22px 3px rgba(0,0,0,1);
 }
 
 .calander table{
